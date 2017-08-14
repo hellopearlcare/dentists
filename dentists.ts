@@ -24,7 +24,7 @@ export const DENTISTS = [
 				"zipCode": 33133,
 				"phone": 3058566811,
 				"address": "3220 S Dixie Hwy Suite #101",
-				"imageUrl": "http://orlandosmilesinc.com/wp-content/uploads/2014/12/dental-office.jpg",
+				"imageUrl": "",
 				"insurances": [
 					"Aetna",
 					"Humana",
@@ -833,7 +833,7 @@ export const DENTISTS = [
 
 {
 	"id": "0021",
-	"name": "Dr. Richard Mariani",
+	"name": "Richard Mariani",
 	"namePrefix": "Dr.",
 	"gender": "male",
 	"imageUrl": "www.marianiorthodontics.com/portals/0/img/Mariani.png",
