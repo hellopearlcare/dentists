@@ -14,8 +14,9 @@ export const DENTISTS = [
 		"accreditation": "DDS.",
 		"languages": ["English", "Spanish"],
 		"specialties": [
-			"FamilyAndCosmeticDentistry",
-			"GeneralDentistry"
+			"General",
+			"Cosmetic",
+			"Family"
 		],
 		"practices": [
 			{
