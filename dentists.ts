@@ -2,7 +2,7 @@ import { Insurance } from '../utils/utility-classes/insurance';
 import { Dentist } from '../utils/utility-classes/dentist.interface';
 
 /*
- * This is a list of real-life, Miami based dentists.
+ * This is a list of real-life, Miami-based dentists.
  */
 export const DENTISTS = [
 	{
