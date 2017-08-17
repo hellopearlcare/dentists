@@ -36,7 +36,7 @@ export const DENTISTS = [
 					"Tuesday": "8AM-5PM",
 					"Wednesday": "8AM-5PM",
 					"Thursday": "8AM-5PM",
-					"Friday": "8AM-5PM",
+					"Friday": "9AM-1PM",
 					"Saturday": "Closed",
 					"Sunday": "Closed"
 				},
@@ -209,6 +209,7 @@ export const DENTISTS = [
 			"Thursday": "9AM-5PM",
 			"Friday": "9AM-5PM",
 			"Saturday": "9AM-3PM"
+			"Sunday": "Closed"
 		},
 		"bundles": [
 {
@@ -399,7 +400,7 @@ export const DENTISTS = [
 ],
 		"schedule": {
 			"Monday": "9AM-6PM",
-			"Tuesday": "9AM-6PM",
+			"Tuesday": "9AM-7PM",
 			"Wednesday": "9AM-6PM",
 			"Thursday": "9AM-6PM",
 			"Friday": "9AM-2PM",
@@ -442,7 +443,7 @@ export const DENTISTS = [
 			"Tuesday": "8AM-5:30PM",
 			"Wednesday": "8AM-5:30PM",
 			"Thursday": "8AM-5:30PM",
-			"Friday": "8AM-5:30PM",
+			"Friday": "8AM-3PM",
 			"Saturday": "Closed",
 			"Sunday": "Closed"
 		},
@@ -482,7 +483,7 @@ export const DENTISTS = [
 			"Tuesday": "8AM-5:30PM",
 			"Wednesday": "8AM-5:30PM",
 			"Thursday": "8AM-5:30PM",
-			"Friday": "8AM-5:30PM",
+			"Friday": "8AM-3PM",
 			"Saturday": "Closed",
 			"Sunday": "Closed"
 		},
@@ -731,11 +732,11 @@ export const DENTISTS = [
 			"None"
 ],
 		"schedule": {
-			"Monday": "8:45AM-5:30PM",
-			"Tuesday": "8:45AM-5:30PM",
-			"Wednesday": "8:45AM-5:30PM",
-			"Thursday": "8:45AM-5:30PM",
-			"Friday": "8:45AM-5:30PM",
+			"Monday": "8:30AM-5:30PM",
+			"Tuesday": "8:30AM-5:30PM",
+			"Wednesday": "8:30AM-5:30PM",
+			"Thursday": "8:30AM-5:30PM",
+			"Friday": "8:30AM-5:30PM",
 			"Saturday": "Closed",
 			"Sunday": "Closed"
 		},
@@ -818,7 +819,7 @@ export const DENTISTS = [
 			"Tuesday": "8AM-5PM",
 			"Wednesday": "8AM-5PM",
 			"Thursday": "8AM-5PM",
-			"Friday": "8AM-2PM",
+			"Friday": "8AM-12PM",
 			"Saturday": "Closed",
 			"Sunday": "Closed"
 		},
@@ -857,9 +858,9 @@ export const DENTISTS = [
 ],
 		"schedule": {
 			"Monday": "8AM-5PM",
-			"Tuesday": "7AM-5PM",
+			"Tuesday": "8AM-5PM",
 			"Wednesday": "8AM-5PM",
-			"Thursday": "7AM-5PM",
+			"Thursday": "8AM-5PM",
 			"Friday": "8AM-12PM",
 			"Saturday": "Closed",
 			"Sunday": "Closed"
@@ -898,9 +899,9 @@ export const DENTISTS = [
 ],
 		"schedule": {
 			"Monday": "8AM-5PM",
-			"Tuesday": "7AM-5PM",
+			"Tuesday": "8AM-5PM",
 			"Wednesday": "8AM-5PM",
-			"Thursday": "7AM-5PM",
+			"Thursday": "8AM-5PM",
 			"Friday": "8AM-12PM",
 			"Saturday": "Closed",
 			"Sunday": "Closed"
@@ -1019,7 +1020,7 @@ export const DENTISTS = [
 		"schedule": {
 			"Monday": "8:30AM-6PM",
 			"Tuesday": "8:30AM-6PM",
-			"Wednesday": "8:30AM-6PM",
+			"Wednesday": "8:30AM-5PM",
 			"Thursday": "8:30AM-6PM",
 			"Friday": "Closed",
 			"Saturday": "Closed",
