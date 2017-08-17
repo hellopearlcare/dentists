@@ -118,10 +118,10 @@ export const DENTISTS = [
 					"None"
 				],
 				"schedule": {
-					"Monday": "9AM-5PM",
-					"Tuesday": "9AM-5PM",
-					"Wednesday": "9AM-5PM",
-					"Thursday": "9AM-5PM",
+					"Monday": "8AM-4:30PM",
+					"Tuesday": "8AM-4:30PM",
+					"Wednesday": "8AM-4:30PM",
+					"Thursday": "8AM-4:30PM",
 					"Friday": "Closed",
 					"Saturday": "Closed",
 					"Sunday": "Closed"
