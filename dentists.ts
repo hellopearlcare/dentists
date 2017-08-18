@@ -95,6 +95,8 @@ export const DENTISTS = [
 			}
 		]
 	},
+		
+		
 
 	{
 		"id": "0003",
@@ -138,6 +140,8 @@ export const DENTISTS = [
 			}
 		]
 	},
+		
+		
 
 	{
 		"id": "0004",
@@ -179,13 +183,16 @@ export const DENTISTS = [
 				"Sunday": "Closed"
 			},
 			"bundles": [
-	{
-	"name": "New Patient Bundle (X-Rays, Cleaning, Exam)",
-	"price": 59
-	}
+					{
+						"name": "New Patient Bundle (X-Rays, Cleaning, Exam)",
+						"price": 59
+					}
+				]
+		}
 	]
-		}]
-	},
+},
+	
+	
 
 {
 	"id": "0005",
@@ -219,13 +226,16 @@ export const DENTISTS = [
 			"Sunday": "Closed"
 		},
 		"bundles": [
-{
-"name": "New Patient Bundle (X-Rays, Cleaning, Exam)",
-"price": 95
-}
+			{
+				"name": "New Patient Bundle (X-Rays, Cleaning, Exam)",
+				"price": 95
+			}
+		]
+	}
 ]
-	}]
 },
+	
+	
 
 {
 	"id": "0006",
@@ -259,13 +269,16 @@ export const DENTISTS = [
 			"Sunday": "Closed"
 		},
 		"bundles":[
-{
-"name": "New Patient Bundle (X-Rays, Cleaning, Exam)",
-"price": 95
-}
+				{
+			"name": "New Patient Bundle (X-Rays, Cleaning, Exam)",
+			"price": 95
+			}
+		]
+	}
 ]
-	}]
 },
+	
+	
 
 {
 	"id": "0007",
@@ -304,9 +317,13 @@ export const DENTISTS = [
 			"name": "Annual Membership (X-Rays, 2 Cleanings, 2 Exams)",
 			"price": "169"
 			}
+		]
+	}
 ]
-	}]
 },
+	
+	
+	
 {
 	"id": "0008",
 	"name": "Rolando Marty",
@@ -344,10 +361,12 @@ export const DENTISTS = [
 			"name": "Annual Membership (X-Rays, 2 Cleanings, 2 Exams)",
 			"price": "169"
 			}
+		]
+	}
 ]
-
-	}]
 },
+	
+	
 
 {
 	"id": "0009",
@@ -382,14 +401,16 @@ export const DENTISTS = [
 			"Sunday": "Closed"
 		},
 		"bundles": [
-{
+			{
 			"name": "Annual Membership (X-Rays, 2 Cleanings, 2 Exams)",
 			"price": "169"
 			}
+		]
+	}
 ]
-
-	}]
 },
+	
+	
 
 {
 	"id": "0010",
@@ -424,13 +445,16 @@ export const DENTISTS = [
 			"Sunday": "Closed"
 		},
 		"bundles": [
-{
+			{
 			"name": "Annual Membership (X-Rays, 2 Cleanings, 2 Exams)",
 			"price": 169
 			}
+		]
+	}
 ]
-	}]
 },
+	
+	
 
 {
 	"id": "0011",
@@ -465,13 +489,16 @@ export const DENTISTS = [
 			"Sunday": "Closed"
 		},
 		"bundles": [
-{
+			{
 			"name": "New Patient Bundle (X-Rays, Cleaning, Exam)",
 			"price": 273
 			}
+		]
+	}
 ]
-	}]
 },
+	
+	
 
 {
 	"id": "0012",
@@ -506,17 +533,19 @@ export const DENTISTS = [
 			"Sunday": "Closed"
 		},
 		"bundles": [
-			{
+				{
 				"name": "New Patient Bundle (X-Rays, Cleaning, Exam)",
 				"price": 273
-			}
-		]
-	}]
+				}
+			]
+		}
+	 ]
 },
 
+	
 
 	{
-		"id": "0014",
+		"id": "0013",
 		"name": "Elibeth Alvarez",
 		"namePrefix": "Dr.",
 		"gender": "Female",
@@ -579,10 +608,11 @@ export const DENTISTS = [
 			}
 		]
 	},
+		
 
 
 	{
-		"id": "0015",
+		"id": "0014",
 		"name": "Eduardo Ubieta",
 		"namePrefix": "Dr.",
 		"gender": "Male",
@@ -650,9 +680,11 @@ export const DENTISTS = [
 			}
 		]
 	},
+		
+		
 
 	{
-		"id": "0016",
+		"id": "0015",
 		"name": "Neda Bahmadi",
 		"namePrefix": "Dr.",
 		"gender": "Female",
@@ -685,16 +717,19 @@ export const DENTISTS = [
 				"Sunday": "Closed"
 			},
 			"bundles": [
-	{
+				{
 				"name": "New Patient Experience (Exam, Cleaning, and X-Rays",
 				"price": 200
 				}
-	]
-	}]
+			]
+		}
+	    ]
 	},
+		
+		
 
 	{
-	"id": "0017",
+	"id": "0016",
 	"name": "Yuchen Cheng",
 	"namePrefix": "Dr.",
 	"gender": "Female",
@@ -727,17 +762,19 @@ export const DENTISTS = [
 			"Sunday": "Closed"
 		},
 		"bundles": [
-{
+			{
 			"name": "New Patient Bundle (X-Rays, Cleaning, Exam)",
 			"price": 99
 			}
+		]
+	}
 ]
-	}]
 },
+	
 
 
 {
-	"id": "0018",
+	"id": "0017",
 	"name": "Hamid Nassery",
 	"namePrefix": "Dr.",
 	"gender": "Male",
@@ -770,16 +807,19 @@ export const DENTISTS = [
 			"Sunday": "Closed"
 		},
 		"bundles": [
-{
+				{
 			"name": "New Patient Bundle (X-Rays, Cleaning, Exam)",
 			"price": 370
 			}
+		]
+	}
 ]
-	}]
 },
+	
+	
 
 {
-	"id": "0019",
+	"id": "0018",
 	"name": "Gloria Alvareztorre",
 	"namePrefix": "Dr",
 	"gender": "Female",
@@ -810,17 +850,19 @@ export const DENTISTS = [
 			"Sunday": "Closed"
 		},
 		"bundles": [
-{
+			{
 			"name": "New Patient Bundle (X-Rays, Cleaning, Exam)",
 			"price": 98
 			}
-]
-	}]
+		]
+	}
+   ]
 },
+	
 
 
 {
-	"id": "0020",
+	"id": "0019",
 	"name": "Scott Kenward",
 	"namePrefix": "Dr.",
 	"gender": "Male",
@@ -857,12 +899,15 @@ export const DENTISTS = [
 			"name": "New Patient Bundle (X-Rays, Cleaning, Exam)",
 			"price": 310
 			}
-]                                                                
-	}]
+		]                                                                
+	}
+]
 },
+	
+	
 
 {
-	"id": "0021",
+	"id": "0020",
 	"name": "Richard Mariani",
 	"namePrefix": "Dr.",
 	"gender": "male",
@@ -899,13 +944,15 @@ export const DENTISTS = [
 				"name": "New Patient Bundle (X-Rays, Cleaning, Exam)",
 				"price": 320
 			}
-		]}
-	]
+		]
+	}
+]
 },
+	
 
 
 {
-	"id": "0022",
+	"id": "0021",
 	"name": "Carmen Briceno Crespi",
 	"namePrefix": "Dr.",
 	"gender": "Female",
@@ -941,12 +988,15 @@ export const DENTISTS = [
 			"price": 320
 			}
 ]
-	}]
+	}
+]
 },
+	
+	
 
 {
 	
-	"id": "0023",
+	"id": "0022",
 	"name": "Michael Robinson",
 	"namePrefix": "Dr.",
 	"gender": "Male",
@@ -985,11 +1035,14 @@ export const DENTISTS = [
 			"price": 320
 			}
 		]
-	}]
+	}
+]
 },
+	
+	
 
 {
-	"id": "0024",
+	"id": "0023",
 	"name": "Jorge Blanco",
 	"namePrefix": "Dr.",
 	"gender": "Male",
@@ -1026,11 +1079,14 @@ export const DENTISTS = [
 			"price": 470
 			}
 			]
-}]
+}
+		     ]
 },
+	
+	
 
 	{
-		"id": "0025",
+		"id": "0024",
 		"name": "Jinelle Andujar",
 		"namePrefix": "Dr.",
 		"gender": "Female",
@@ -1070,8 +1126,11 @@ export const DENTISTS = [
 			}
 		]
 	},
+		
+		
+		
 		{
-			"id": "0026",
+			"id": "0025",
 			"name": "Pavel Ivanov",
 			"namePrefix": "Dr.",
 			"gender": "Male",
@@ -1112,9 +1171,11 @@ export const DENTISTS = [
 			}
 		]
 	},
+		
+		
 			
 		{
-			"id": "0027",
+			"id": "0026",
 			"name": "Marco Leyte-Vidal",
 			"namePrefix": "Dr.",
 			"gender": "Male",
@@ -1148,7 +1209,8 @@ export const DENTISTS = [
 					"Saturday": "Closed",
 					"Sunday": "Closed"
 				},
-				"bundles": [{
+				"bundles": [
+					{
 					"name": "New Patient Bundle (X-Rays, Cleaning, Exam)",
 					"price": 320
 				}
@@ -1156,8 +1218,11 @@ export const DENTISTS = [
 		}
 ]
 		},
+			
+			
+			
 			{
-				"id": "0028",
+				"id": "0027",
 				"name": "Cesar Sabates"
 				"namePrefix": "Dr.",
 				"gender": "Male",
@@ -1189,7 +1254,8 @@ export const DENTISTS = [
 						"Satuday": "Closed",
 						"Sunday": "Closed"
 					}
-					"bundles": [{
+					"bundles": [
+					{
 						"name": "New Patient Bundle (X-Rays, Cleaning, Exam)",
 						"price": 260
 				}
@@ -1197,8 +1263,11 @@ export const DENTISTS = [
 		}
 ]
 		},
+			
+			
+			
 			{
-				"id": "0029",
+				"id": "0028",
 				"name": "Raffaella Armstron",
 				"namePrefix": "Dr.",
 				"gender": "Female", 
@@ -1228,7 +1297,8 @@ export const DENTISTS = [
 						"Saturday": "Closed",
 						"Sunday": "Closed
 					},
-					"bundles": [{
+					"bundles": [
+						{
 						"name": "New Patient Bundle (X-Rays, Cleaning, Exam)",
 						"price": 275,
 						}
@@ -1236,8 +1306,11 @@ export const DENTISTS = [
 		}
 ]
 		},
+			
+			
+			
 			{ 
-				"id": "0030",
+				"id": "0029",
 				"name": "Michelle Seguel",
 				"namePrefix": "Dr.",
 				"gender": "Female",
@@ -1267,7 +1340,8 @@ export const DENTISTS = [
 						"Saturday": "Closed",
 						"Sunday": "Closed"
 					},
-					"bundles": [{
+					"bundles": [
+						{
 						"name": "New Patient Bundle (X-Rays, Cleaning, Exam)",
 						"price": 705,
 						}
@@ -1275,8 +1349,11 @@ export const DENTISTS = [
 		}
 ]
 		},
+			
+			
+			
 			{ 
-				"id": 0031"
+				"id": 0030"
 				"name": "Manuel Seage",
 				"namePrefix": "Dr.",
 				"gender": "Male",
@@ -1306,7 +1383,8 @@ export const DENTISTS = [
 						"Saturday": "Closed",
 						"Sunday": "Closed"
 					},
-					"bundles": [{
+					"bundles": [
+						{
 						"name": "New Patient Bundle (X-Rays, Cleaning, Exam)",
 						"price": 705,
 						}
@@ -1314,8 +1392,11 @@ export const DENTISTS = [
 		}
 ]
 		},
+			
+			
+			
 			{ 
-				"id": "0032",
+				"id": "0031",
 				"name": "Dania Melnick Alonso",
 				"namePrefix": "Dr.",
 				"gender": "Female",
@@ -1345,16 +1426,21 @@ export const DENTISTS = [
 						"Saturday": "Closed",
 						"Sunday": "Closed"
 					},
-					"bundles": [{
+					"bundles": [
+						{
 						"name": "New Patient Bundle (X-Rays, Cleaning, Exam)",
 						"price": 705,
 						}
 			]
 		}
+	]
 ]
 		},
+			
+			
+			
 			{ 
-				"id": "0033",
+				"id": "0032",
 				"name": "Carmen Garcia Paul",
 				"namePrefix": "Dr.", 
 				"gender": "Female",
@@ -1390,6 +1476,11 @@ export const DENTISTS = [
 						"price": "Free", 
 				
 											}
+					      ]
+			}
+]
+},
+	{
 						
 
 					
