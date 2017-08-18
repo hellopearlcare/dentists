@@ -43,7 +43,7 @@ export const DENTISTS = [
 				},
 				"bundles": [
 					{
-						"name": "New Patient Bundle",
+						"name": "New Patient Bundle (X-Rays, Cleaning, Exam)",
 						"price":  99
 					}
 				]
@@ -60,9 +60,11 @@ export const DENTISTS = [
 		"gender": "Male",
 		"imageUrl": "https://scontent-ort2-1.xx.fbcdn.net/v/t1.0-9/12645072_517410608431315_565980337064601314_n.jpg?oh=4e83a97660eda2494f68662c623a61b1&oe=5A34A72D",
 		"accreditation": "DDS",
-		"languages": "English",
+		"languages": ["English", "Spanish"]
 		"specialties": [
-			"GeneralAndCosmetic"
+			"General",
+			"Cosmetic",
+			"Family"
 		],
 		"practices": [
 			{
@@ -86,7 +88,7 @@ export const DENTISTS = [
 				},
 				"bundles": [
 					{
-						"name": "New Patient Bundle",
+						"name": "New Patient Bundle (X-Rays, Cleaning, Exam)",
 						"price":  215
 					}
 				]
@@ -101,11 +103,11 @@ export const DENTISTS = [
 		"gender": "Male",
 		"imageUrl": "https://www.southmiamismiles.com/wp-content/plugins/clientprofile/images/client_uploads/dr-reyes.jpg",
 		"accreditation": "DDS",
-		"languages": ["English", "Spanish"],
+		"languages": ["Spanish", "English"],
 		"specialties": [
-			"CosmeticAndReconstructiveDentistry",
-			"OralSurgery",
-			"Prosthodontist"
+			"General",
+			"Cosmetic",
+			"Prosthodontics"
 		],
 		"practices": [
 			{
@@ -129,7 +131,7 @@ export const DENTISTS = [
 				},
 				"bundles": [
 					{
-						"name": "New Patient Bundle",
+						"name": "New Patient Bundle (X-Rays, Cleaning, Exam)",
 						"price": 165
 					}
 				]
@@ -144,14 +146,15 @@ export const DENTISTS = [
 		"gender": "Female",
 		"imageUrl": "https://d2t808ag5aqhkh.cloudfront.net/c2a18db2-a860-4499-8dc6-b20b8a3c5ee8circle_large__v1__.png",
 		"accreditation": "DMD",
-		"languages": ["English", "Spanish"],
+		"languages": ["Spanish", "English"],
 		"specialties": [
-			"CosmeticAndGeneralDentistry",
-			"Orthodontics",
-			"Invisalign"
+			"General",
+			"Cosmetic",
+			"Family",
+			"Orthodontics
 		],
 		"practices": [{
-			"name": "Dental Options",
+			"name": "Dental Options PA",
 			"city": "Aventura",
 			"zipCode": "33180",
 			"phone": 3054661804,
@@ -177,7 +180,7 @@ export const DENTISTS = [
 			},
 			"bundles": [
 	{
-	"name": "New Patient Bundle",
+	"name": "New Patient Bundle (X-Rays, Cleaning, Exam)",
 	"price": 59
 	}
 	]
@@ -191,8 +194,11 @@ export const DENTISTS = [
 	"gender": "Male",
 	"imageUrl": "https://d1cesmq0xhh7we.cloudfront.net/d7ed0f01-cbb6-451b-978c-5fe2e021a589zoom.jpg",
 	"accreditation": "DMD",
-	"languages": ["English"],
-	"specialties": ["GeneralAndCosmeticDentistry"],
+	"languages": ["Spanish", "English", "Hebrew", "French", "Dutch"],
+	"specialties": [
+		"General",
+		"Cosmetic",
+		"Family"
 	"practices": [{
 		"name": "Bliss Dental",
 		"city": "Miami",
@@ -214,7 +220,7 @@ export const DENTISTS = [
 		},
 		"bundles": [
 {
-"name": "New Patient Bundle",
+"name": "New Patient Bundle (X-Rays, Cleaning, Exam)",
 "price": 95
 }
 ]
@@ -228,9 +234,11 @@ export const DENTISTS = [
 	"gender": "Male",
 	"imageUrl": "https://d2t808ag5aqhkh.cloudfront.net/c6c90410-d38c-4957-9cf1-b9f54bcb6fd4zoom.jpg",
 	"accreditation": "DMD",
-	"languages": ["English", "French", "Dutch", "Spanish", "Hebrew"],
+	"languages": ["Spanish", "English", "French", "Dutch", "Hebrew"],
 	"specialties": [
-		"GeneralAndCosmetic"
+		"General",
+		"Cosmetic",
+		"Family"
 	],
 	"practices": [{
 		"name": "Miami Beach Smiles",
@@ -252,7 +260,7 @@ export const DENTISTS = [
 		},
 		"bundles":[
 {
-"name": "New Patient Bundle",
+"name": "New Patient Bundle (X-Rays, Cleaning, Exam)",
 "price": 95
 }
 ]
@@ -268,11 +276,13 @@ export const DENTISTS = [
 	"accreditation": "DDS",
 	"languages": ["Spanish", "English"],
 	"specialties": [
-		"GeneralAndCosmetic",
-		"Prosthodontist"
+		"General",
+		"Cosmetic",
+		"Family",
+		"Prosthodontics"
 	],
 	"practices": [{
-		"name": "Otero Dental Centers",
+		"name": "Otero Dental Centers, Islas Canarias",
 		"city": "Miami",
 		"zipCode": "33175",
 		"address": "13625 SW 26th St",
@@ -306,8 +316,10 @@ export const DENTISTS = [
 	"accreditations": "DDS",
 	"languages": ["Spanish", "English"],
 	"specialties": [
-		"GeneralAndCosmetic",
-		"Prosthodontist"
+		"Genera",
+		"Cosmetic",
+		"Family",
+		"Prosthodontics"
 	],
 	"practices": [{
 		"name": "Otero Dental Centers, Coral Gables",
@@ -346,7 +358,9 @@ export const DENTISTS = [
 	"accreditations": "DMD",
 	"languages": ["Spanish", "English"],
 	"specialties": [
-		"GeneralAndCosmetic"
+		"General",
+		"Cosmetic",
+		"Family"
 	],
 	"practices": [{
 		"name": "Otero Dental Centers, Hialeah",
@@ -379,15 +393,16 @@ export const DENTISTS = [
 
 {
 	"id": "0010",
-	"name": "Maria F Gonzalez",
+	"name": "Maria F. Gonzalez",
 	"namePrefix": "Dr.",
 	"gender": "Female",
 	"imageUrl": "https://www.oterodentalcenters.com/img/doctors/maria.png",
 	"accreditations": "DMD",
 	"languages": ["Spanish", "English"],
 	"specialties": [
-		"GeneralAndCosmetic",
-		"Orthodontist"
+		"General",
+		"Cosmetic",
+		"Orthodontics"
 	],
 	"practices": [{
 		"name": "Otero Dental Centers, Country Walk",
@@ -426,8 +441,9 @@ export const DENTISTS = [
 	"accreditation": "DDS",
 	"languages": ["Spanish", "English"],
 	"specialties": [
-		"GeneralAndCosmetic",
-		"Family"
+		"General",
+		"Cosmetic",
+		"Prosthodontics"
 	],
 	"practices": [{
 		"name": "Jessica Eagan DDS",
@@ -466,7 +482,8 @@ export const DENTISTS = [
 	"accreditation": "DDS",
 	"languages": ["Spanish", "English"],
 	"specialties": [
-		"GeneralAndCosmetic",
+		"General",
+		"Cosmetic",
 		"Family"
 	],
 	"practices": [{
@@ -507,8 +524,9 @@ export const DENTISTS = [
 		"accreditation": "DDS",
 		"languages": ["Spanish", "English"],
 		"specialties": [
-			"GeneralAndCosmetic",
-			"Family"
+			"General",
+			"Cosmetic",
+			"Orthodontics"
 		],
 		"practices": [
 			{
@@ -572,7 +590,9 @@ export const DENTISTS = [
 		"accreditation": "DDS",
 		"languages": ["Spanish", "English"],
 		"specialties": [
-			"GeneralAndCosmetic",
+			"General",
+			"Cosmetic",
+			"Family",
 			"Prosthodontics"
 		],
 		"practices": [
@@ -598,7 +618,7 @@ export const DENTISTS = [
 				"bundles": [
 					{
 						"name": "New Patient Bundle (X-Rays, Cleaning, Exam)",
-						"price": 99
+						"price": 174
 					}
 				]
 			},
@@ -624,7 +644,7 @@ export const DENTISTS = [
 				"bundles":  [
 					{
 						"name": "New Patient Bundle (X-Rays, Cleaning, Exam)",
-						"price": 99
+						"price": 174
 					}
 				]
 			}
@@ -638,9 +658,12 @@ export const DENTISTS = [
 		"gender": "Female",
 		"imageUrl": "https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/1/000/1dc/305/36803a3.jpg",
 		"accreditation": "DDS",
-		"languages": "English",
+		"languages": ["Spanish","English","French", "Farsi"]
 		"specialties": [
-			"GeneralAndCosmetic"
+			"General",
+			"Cosmetic",
+			"Orthodontic",
+			"Prosthodontics"
 		],
 		"practices": [{
 			"name": "Ultra Smile Dentistry",
@@ -677,8 +700,12 @@ export const DENTISTS = [
 	"gender": "Female",
 	"imageUrl": "http://www.southbeachdental.com/images/sheng1.jpg",
 	"accreditations": "DMD",
+	"languages": ["English"],
 	"specialties": [
-		"GeneralAndCosmetic",
+		"General",
+		"Cosmetic",
+		"Family",
+		"Orthodontics"
 	],
 	"practices": [{
 		"name": "South Beach Dental",
@@ -716,11 +743,12 @@ export const DENTISTS = [
 	"gender": "Male",
 	"imageUrl": "http://www.hautemd.com/wp-content/uploads/2013/08/Dr-N-pro_New-179x210.jpg",
 	"accreditation": "DDS",
-	"languages": "English",
+	"languages": ["Spanish", "English", "Farsi"],
 	"specialties": [
-		"GeneralAndCosmetic",
-		"Prosthodontist",
+		"General",
+		"Cosmetic",
 		"Family",
+		"Prosthodontics"
 	],
 	"practices": [{
 		"name": "Real Smile Complete Health Dentistry, MB",
@@ -752,16 +780,15 @@ export const DENTISTS = [
 
 {
 	"id": "0019",
-	"name": "Dr. Gloria Alvareztorre",
+	"name": "Gloria Alvareztorre",
 	"namePrefix": "Dr",
 	"gender": "Female",
 	"imageUrl": "http://mdxvitals-res.cloudinary.com/private_images/t_macro/professionals/1626903/Dr_Gloria_Alvareztorre.jpg",
 	"accreditation": "DDS",
-	"languages": ["English", "Spanish"],
+	"languages": ["Spanish", "English"],
 	"specialties": [
-		"GeneralAndCosmetic",
-		"Restorative",
-		"Family",
+		"General",
+		"Cosmetic"
 	],
 	"practices": [{
 		"name": "Real Smile Complete Health Dentistry, North Beach",
@@ -801,9 +828,10 @@ export const DENTISTS = [
 	"accreditation": "DDS",
 	"languages": ["English"],
 	"specialties": [
-		"GeneralAndCosmetic",
-		"Orthodontics",
+		"General
+		"Cosmetic",
 		"Family",
+		"Prosthodontics"
 	],
 	"practices": [{
 		"name": "Pinecrest Dental",
@@ -840,15 +868,15 @@ export const DENTISTS = [
 	"gender": "male",
 	"imageUrl": "www.marianiorthodontics.com/portals/0/img/Mariani.png",
 	"accreditation": "DDS",
-	"languages": ["English"],
+	"languages": ["Spanish", "English"],
 	"specialties": [
-		"GeneralAndCosmetic",
-		"Orthodontics",
+		"General",
+		"Family",
 		"Pediatric",
-		"Family"
+		"Orthodontics",
 	],
 	"practices": [{
-		"name": "Mariani Robinson & Leyte-Vidal: Mariani Sr Richard C DDS",
+		"name": "Mariani Orthodontics",
 		"city": "Miami",
 		"zipCode": "33143",
 		"phone": 3056617810,
@@ -878,18 +906,18 @@ export const DENTISTS = [
 
 {
 	"id": "0022",
-	"name": "Dr. Carmen Briceno Crespi",
+	"name": "Carmen Briceno Crespi",
 	"namePrefix": "Dr.",
 	"gender": "Female",
 	"imageUrl": "http://www.marianiorthodontics.com/portals/0/img/Briceno.png",
 	"accreditation": "DDS",
-	"languages": ["English", "Spanish"],
+	"languages": ["Spanish", "English"],
 	"specialties": [
-		"FamilyAndCosmetic",
+		"General",
 		"Orthodontics"
 	],
 	"practices": [{
-		"name": "Mariani Robinson & Leyte-Vidal: Mariani Sr Richard C DDS",
+		"name": "Mariani Orthodontics",
 		"city": "Miami",
 		"zipCode": "33143",
 		"phone": 3056617810,
@@ -917,48 +945,8 @@ export const DENTISTS = [
 },
 
 {
+	
 	"id": "0023",
-	"name": "Amaury Rodriguez",
-	"namePrefix": "Dr.",
-	"gender": "Male",
-	"imageUrl": "https://www.planfy.com/assets/images/global/dummy/people/avatar--default.png",
-	"accreditation": "DDS",
-	"languages": ["English", "Spanish"],
-	"specialties": [
-		"FamilyAndCosmetic"
-	],
-	"practices": [{
-		"name": "Center of Cosmetic Dentistry",
-		"city": "Miami",
-		"zipCode": "33134",
-		"phone": 3054451405,
-		"address": "3944 W Flagler St",
-		"imageUrl": "",
-		"insurances": [
-			"None"
-],
-		"schedule": {
-			"Monday": "8AM-5PM",
-			"Tuesday": "8AM-5PM",
-			"Wednesday": "8AM-5PM",
-			"Thursday": "8AM-5PM",
-			"Friday": "8AM-5PM",
-			"Satuday": "Closed",
-			"Sunday": "Closed"
-		},
-		"bundles": [
-{
-			"name": "New Patient Bundle (X-Rays + Exam)",
-			"price": 55
-	}
-]
-	}]
-},
-
-
-
-{
-	"id": "0024",
 	"name": "Michael Robinson",
 	"namePrefix": "Dr.",
 	"gender": "Male",
@@ -966,8 +954,11 @@ export const DENTISTS = [
 	"accreditation": "DDS",
 	"languages": ["English"],
 	"specialties": [
-		"FamilyAndCosmetic",
-		"Orthodontics"
+		"General",
+		"Cosmetic",
+		"Family",
+		"Endodontics",
+		"Sports"
 	],
 	"practices": [{
 		"name": "Sunset Dentistry",
@@ -998,7 +989,7 @@ export const DENTISTS = [
 },
 
 {
-	"id": "0025",
+	"id": "0024",
 	"name": "Jorge Blanco",
 	"namePrefix": "Dr.",
 	"gender": "Male",
@@ -1006,10 +997,12 @@ export const DENTISTS = [
 	"accreditation": "DDS",
 	"languages": ["Spanish", "English"],
 	"specialties": [
-		"GeneralAndCosmetic"
+		"General",
+		"Cosmetic",
+		"Family"
 	],
 	"practices": [{
-		"name": "Images Aesthetic Dentistry",
+		"name": "Images Dental",
 		"city": "Miami",
 		"zipCode": "33143",
 		"phone": 3056700352,
@@ -1034,6 +1027,382 @@ export const DENTISTS = [
 			}
 			]
 }]
-}
+},
 
-];
+	{
+		"id": "0025",
+		"name": "Jinelle Andujar",
+		"namePrefix": "Dr.",
+		"gender": "Female",
+		"imageUrl": "https://www.drubieta.com/images/dr_jinelle_abdujar-sm.jpg",
+		"accreditation": "DMD",
+		"languages": ["Spanish", "English"],
+		"specialties": [
+			      "General",
+			      "Cosmetic",
+			      "Family"
+			      ]
+		"practices": [{
+		  "name": "Sunset Family & Cosmetic Dentistry",
+				"city": "Miami",
+				"zipCode": "33139",
+				"phone": 3055310063,
+				"address": "830 Washington Ave",
+				"imageUrl": "",
+				"insurances": [
+					"None"
+				],
+				"schedule": {
+					"Monday": "8AM-5PM",
+					"Tuesday": "8AM-5PM",
+					"Wednesday": "8AM-5PM",
+					"Thursday": "8AM-5PM",
+					"Friday": "8AM-5PM",
+					"Saturday": "Closed",
+					"Sunday": "Closed"
+					},
+				"bundles":  [
+					{
+						"name": "New Patient Bundle (X-Rays, Cleaning, Exam)",
+						"price": 174
+					}
+				]
+			}
+		]
+	},
+		{
+			"id": "0026",
+			"name": "Pavel Ivanov",
+			"namePrefix": "Dr.",
+			"gender": "Male",
+			"imageUrl": "https://www.drubieta.com/images/dr_pavel-sm.jpg",
+			"accreditation": "DMD",
+			"languages": ["Spanish", "English"],
+		        "specialties": [
+					"General",
+				      	"Family",
+				      	"Orthodontics",
+				      	"Pediatric"
+				      ]
+			"practices": [{
+		 		"name": "Sunset Family & Cosmetic Dentistry",
+				"city": "Miami",
+				"zipCode": "33139",
+				"phone": 3055310063,
+				"address": "830 Washington Ave",
+				"imageUrl": "",
+				"insurances": [
+					"None"
+				],
+				"schedule": {
+					"Monday": "8AM-5PM",
+					"Tuesday": "8AM-5PM",
+					"Wednesday": "8AM-5PM",
+					"Thursday": "8AM-5PM",
+					"Friday": "8AM-5PM",
+					"Saturday": "Closed",
+					"Sunday": "Closed"
+					},
+				"bundles":  [
+					{
+						"name": "New Patient Bundle (X-Rays, Cleaning, Exam)",
+						"price": 174
+					}
+				]
+			}
+		]
+	},
+			
+		{
+			"id": "0027",
+			"name": "Marco Leyte-Vidal",
+			"namePrefix": "Dr.",
+			"gender": "Male",
+			"imageUrl": "http://www.sunsetdentistry.com/wp-content/uploads/2016/09/docs.jpg",
+			"accreditation": "DMD",
+			"languages":["Spanish", "English"],
+				
+			"specialties": [
+				"General",
+				"Cosmetic",
+				"Family", 
+				"Endodontics",
+				"Sports
+				]
+			"practices": [{
+				"name": "Sunset Dentistry",
+				"city": "Miami",
+				"zipcode": "33143",
+				"phone": 3056617810,
+				"address": "6280 Sunset Drive, Suite #404",
+				"imageUrl": "",
+				"insurances": [
+					"None"
+					],
+				"schedule": {
+					"Monday": "8AM-5PM",
+					"Tuesday": "7AM-5PM",
+					"Wednesday": "8AM-5PM",
+					"Thursday": "7AM-5PM",
+					"Friday": "8AM-12PM",
+					"Saturday": "Closed",
+					"Sunday": "Closed"
+				},
+				"bundles": [{
+					"name": "New Patient Bundle (X-Rays, Cleaning, Exam)",
+					"price": 320
+				}
+			]
+		}
+]
+		},
+			{
+				"id": "0028",
+				"name": "Cesar Sabates"
+				"namePrefix": "Dr.",
+				"gender": "Male",
+				"imageUrl": "http://www.cesarsabates.com/images/cesarsabatesdds.jpg",
+				"accreditation": " DDS",
+				"languages": ["Spanish", "English"],
+				"specialties": [
+					"General",
+					"Cosmetic",
+					"Prosthodontics",
+					"Oral Surgery"
+					],
+				" practices": [{
+					"name": "Cesar R Sabates, DDS PA",
+					"city": "Miami",
+					"zipcode": "33134",
+					"phone": 3054487217,
+					"address": "747 Ponce De Leon Blvd",
+					"imagrUrl": "",
+					"insurances": [
+						"None"
+						],
+					"schedule": {
+						"Monday": "8:30AM-6PM",
+						"Tuesday": "8:30AM-6PM",
+						"Wednesday": "8:30AM-6PM",
+						"Thursday": "8:30AM-6PM",
+						"Friday": "8:30AM-6PM",
+						"Satuday": "Closed",
+						"Sunday": "Closed"
+					}
+					"bundles": [{
+						"name": "New Patient Bundle (X-Rays, Cleaning, Exam)",
+						"price": 260
+				}
+			]
+		}
+]
+		},
+			{
+				"id": "0029",
+				"name": "Raffaella Armstron",
+				"namePrefix": "Dr.",
+				"gender": "Female", 
+				"imageUrl": "http://c1-preview.prosites.com/84106/wy/images/bio%20photo_crop.jpg", 
+				"accreditation": "DDS",
+				"languages": ["Spanish", "English", "Italian"],
+				"specialties": [
+					"General",
+					"Cosmetic"
+					],
+				"practices": [{
+					"name": "Raffaella Armstrong DMD",
+					"city": "Miami",
+					"zipcode": "33131",
+					"phone": 3053716064,
+					"address": "150 SE 2nd Ave, Suite #604",
+					"imageUrl": "",
+					"insurances": [
+						"None"
+						],
+					"schedule": {
+						"Monday": "9AM-5PM",
+						"Tuesday": "9AM-5PM",
+						"Wednesday": "9AM-5PM",
+						"Thursday": "9AM-5PM",
+						"Friday": "9AM-5PM",
+						"Saturday": "Closed",
+						"Sunday": "Closed
+					},
+					"bundles": [{
+						"name": "New Patient Bundle (X-Rays, Cleaning, Exam)",
+						"price": 275,
+						}
+			]
+		}
+]
+		},
+			{ 
+				"id": "0030",
+				"name": "Michelle Seguel",
+				"namePrefix": "Dr.",
+				"gender": "Female",
+				"imageUrl": "https://d2t808ag5aqhkh.cloudfront.net/df5592a9-3c50-42ba-8823-77d9e1063dcbzoom.jpg",
+				"accreditation": "DMD",
+				"languages": ["Spanish", "English"],
+				"specialties": [
+					"General",
+					"Cosmetic"
+					],
+				"practices": [{
+					"name": "Confident Miami",
+					"city": "Miami",
+					"zipcode": "33134",
+					"phone": 3053631420,
+					"addres": "475 Biltmore Way, Suite 302",
+					"imageUrl": "",
+					"insurances": [
+						"None"
+						],
+					"schedule": {
+						"Monday": "9AM-5PM",
+						"Tuesday": "9AM-5PM",
+						"Wednesday": "9AM-4PM",
+						"Thursday": "9AM-5PM",
+						"Friday": "9AM-1PM",
+						"Saturday": "Closed",
+						"Sunday": "Closed"
+					},
+					"bundles": [{
+						"name": "New Patient Bundle (X-Rays, Cleaning, Exam)",
+						"price": 705,
+						}
+			]
+		}
+]
+		},
+			{ 
+				"id": 0031"
+				"name": "Manuel Seage",
+				"namePrefix": "Dr.",
+				"gender": "Male",
+				"imageUrl": "https://sa1s3.patientpop.com/assets/images/provider/photos/1442811.jpg",
+				"accreditation": "DDS",
+				"languages": ["Spanish", "English"],
+				"specialties": [
+					"General",
+					"Cosmetic"
+					],
+					"practices": [{
+					"name": "Confident Miami",
+					"city": "Miami",
+					"zipcode": "33134",
+					"phone": 3053631420,
+					"addres": "475 Biltmore Way, Suite 302",
+					"imageUrl": "",
+					"insurances": [
+						"None"
+						],
+					"schedule": {
+						"Monday": "9AM-5PM",
+						"Tuesday": "9AM-5PM",
+						"Wednesday": "9AM-4PM",
+						"Thursday": "9AM-5PM",
+						"Friday": "9AM-1PM",
+						"Saturday": "Closed",
+						"Sunday": "Closed"
+					},
+					"bundles": [{
+						"name": "New Patient Bundle (X-Rays, Cleaning, Exam)",
+						"price": 705,
+						}
+			]
+		}
+]
+		},
+			{ 
+				"id": "0032",
+				"name": "Dania Melnick Alonso",
+				"namePrefix": "Dr.",
+				"gender": "Female",
+				"imageUrl":  "https://sa1s3.patientpop.com/assets/images/provider/photos/1442813.jpg"
+				"accreditation": "DMD",
+				"languages": ["Spanish", "English"],
+				"specialties": [
+					"General",
+					"Cosmetic"
+					],
+					"practices": [{
+					"name": "Confident Miami",
+					"city": "Miami",
+					"zipcode": "33134",
+					"phone": 3053631420,
+					"addres": "475 Biltmore Way, Suite 302",
+					"imageUrl": "",
+					"insurances": [
+						"None"
+						],
+					"schedule": {
+						"Monday": "9AM-5PM",
+						"Tuesday": "9AM-5PM",
+						"Wednesday": "9AM-4PM",
+						"Thursday": "9AM-5PM",
+						"Friday": "9AM-1PM",
+						"Saturday": "Closed",
+						"Sunday": "Closed"
+					},
+					"bundles": [{
+						"name": "New Patient Bundle (X-Rays, Cleaning, Exam)",
+						"price": 705,
+						}
+			]
+		}
+]
+		},
+			{ 
+				"id": "0033",
+				"name": "Carmen Garcia Paul",
+				"namePrefix": "Dr.", 
+				"gender": "Female",
+				"imageUrl": "http://www.miamibraces.com/wp-content/uploads/2016/02/AlexTphoto.com-Carmen-Garcia-Headshots-1-HighRes-1-845x1024.jpg",
+				"accreditation": "DMD"
+				"languages": ["Spanish", "English"],
+				"specialties": [
+					"General",
+					"Orthodontics",
+					"Pediatric"
+					],
+				"practices": [{
+					"name": "Miami Orthodontic Specialists",
+					"city": "Miami",
+					"zipcode": "33156",
+					"phone": 3054079000,
+					"address": "8525 SW 92nd St",
+					"imageUrl": "",
+					"insurance": [
+						"None"
+						]
+					"schedule": [
+						"Monday": "10:00AM-6:30PM",
+						"Tuesday": "8AM-5PM",
+						"Wednesday": "7:30AM-4PM",
+						"Thursday": "8AM-5PM",
+						"Friday": "8AM-5PM",
+						"Saturday": "Closed",
+						"Sunday": "Closed",
+					],
+					"bundles": [{
+						"name": "New Patient Bundle (X-Rays, Cleaning, Exam)",
+						"price": "Free", 
+				
+											}
+						
+
+					
+				
+				
+						
+
+						
+				
+					
+					
+					
+				
+	
+		
+		
