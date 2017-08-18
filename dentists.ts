@@ -158,7 +158,7 @@ export const DENTISTS = [
 			"Orthodontics
 		],
 		"practices": [{
-			"name": "Dental Options PA",
+			"name": "Dental Options",
 			"city": "Aventura",
 			"zipCode": "33180",
 			"phone": 3054661804,
@@ -627,7 +627,7 @@ export const DENTISTS = [
 		],
 		"practices": [
 			{
-				"name": "Sunset Family & Cosmetic Dentistry",
+				"name": "Sunset Family & Cosmetic Dentistry, Sunset Drive",
 				"city": "Miami",
 				"zipCode": "33173",
 				"number": 3055962815,
@@ -653,8 +653,8 @@ export const DENTISTS = [
 				]
 			},
 			{
-				"name": "Sunset Family & Cosmetic Dentistry",
-				"city": "Miami",
+				"name": "Sunset Family & Cosmetic Dentistry, Miami Beach",
+				"city": "Miami Beach",
 				"zipCode": "33139",
 				"number": 3055310063,
 				"address": "830 Washington Ave",
@@ -730,7 +730,7 @@ export const DENTISTS = [
 
 	{
 	"id": "0016",
-	"name": "Yuchen Cheng",
+	"name": "Yuchen Sheng",
 	"namePrefix": "Dr.",
 	"gender": "Female",
 	"imageUrl": "http://www.southbeachdental.com/images/sheng1.jpg",
@@ -788,7 +788,7 @@ export const DENTISTS = [
 		"Prosthodontics"
 	],
 	"practices": [{
-		"name": "Real Smile Complete Health Dentistry, MB",
+		"name": "Real Smile Complete Health Dentistry, Miami Beach",
 		"city": "Miami Beach",
 		"zipCode": "33140",
 		"phone": 3056724444,
@@ -1099,8 +1099,8 @@ export const DENTISTS = [
 			      "Family"
 			      ]
 		"practices": [{
-		  "name": "Sunset Family & Cosmetic Dentistry",
-				"city": "Miami",
+		  "name": "Sunset Family & Cosmetic Dentistry, Miami Beach",
+				"city": "Miami Beach",
 				"zipCode": "33139",
 				"phone": 3055310063,
 				"address": "830 Washington Ave",
@@ -1144,8 +1144,8 @@ export const DENTISTS = [
 				      	"Pediatric"
 				      ]
 			"practices": [{
-		 		"name": "Sunset Family & Cosmetic Dentistry",
-				"city": "Miami",
+		 		"name": "Sunset Family & Cosmetic Dentistry, Miami Beach",
+				"city": "Miami Beach",
 				"zipCode": "33139",
 				"phone": 3055310063,
 				"address": "830 Washington Ave",
@@ -1268,7 +1268,7 @@ export const DENTISTS = [
 			
 			{
 				"id": "0028",
-				"name": "Raffaella Armstron",
+				"name": "Rafaella Armstrong",
 				"namePrefix": "Dr.",
 				"gender": "Female", 
 				"imageUrl": "http://c1-preview.prosites.com/84106/wy/images/bio%20photo_crop.jpg", 
@@ -1279,7 +1279,7 @@ export const DENTISTS = [
 					"Cosmetic"
 					],
 				"practices": [{
-					"name": "Raffaella Armstrong DMD",
+					"name": "Rafaella Armstrong DMD",
 					"city": "Miami",
 					"zipcode": "33131",
 					"phone": 3053716064,
@@ -1311,7 +1311,7 @@ export const DENTISTS = [
 			
 			{ 
 				"id": "0029",
-				"name": "Michelle Seguel",
+				"name": "Michelle Segel",
 				"namePrefix": "Dr.",
 				"gender": "Female",
 				"imageUrl": "https://d2t808ag5aqhkh.cloudfront.net/df5592a9-3c50-42ba-8823-77d9e1063dcbzoom.jpg",
@@ -1472,7 +1472,7 @@ export const DENTISTS = [
 						"Sunday": "Closed",
 					],
 					"bundles": [{
-						"name": "New Patient Bundle (X-Rays, Cleaning, Exam)",
+						"name": "New Patient Consultation (X-Rays, Exam)",
 						"price": "Free", 
 				
 											}
