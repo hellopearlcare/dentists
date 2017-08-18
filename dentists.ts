@@ -1257,7 +1257,7 @@ export const DENTISTS = [
 					"bundles": [
 					{
 						"name": "New Patient Bundle (X-Rays, Cleaning, Exam)",
-						"price": 260
+						"price": 385
 				}
 			]
 		}
