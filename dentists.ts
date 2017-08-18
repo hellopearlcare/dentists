@@ -155,7 +155,7 @@ export const DENTISTS = [
 			"General",
 			"Cosmetic",
 			"Family",
-			"Orthodontics
+			"Orthodontics"
 		],
 		"practices": [{
 			"name": "Dental Options",
@@ -870,7 +870,7 @@ export const DENTISTS = [
 	"accreditation": "DDS",
 	"languages": ["English"],
 	"specialties": [
-		"General
+		"General",
 		"Cosmetic",
 		"Family",
 		"Prosthodontics"
@@ -1188,7 +1188,7 @@ export const DENTISTS = [
 				"Cosmetic",
 				"Family", 
 				"Endodontics",
-				"Sports
+				"Sports"
 				]
 			"practices": [{
 				"name": "Sunset Dentistry",
@@ -1295,7 +1295,7 @@ export const DENTISTS = [
 						"Thursday": "9AM-5PM",
 						"Friday": "9AM-5PM",
 						"Saturday": "Closed",
-						"Sunday": "Closed
+						"Sunday": "Closed"
 					},
 					"bundles": [
 						{
