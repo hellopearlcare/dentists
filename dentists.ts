@@ -1,10 +1,5 @@
-import { Insurance } from '../utils/utility-classes/insurance';
-import { Dentist } from '../utils/utility-classes/dentist.interface';
-
-/*
- * This is a list of real-life, Miami-based dentists.
- */
 export const DENTISTS = [
+
 	{
 		"id": "0001",
 		"name": "Sofia Fontecilla",
@@ -51,8 +46,6 @@ export const DENTISTS = [
 		]
 	},
 
-
-
 	{
 		"id": "0002",
 		"name": "Brian Tschirhart",
@@ -60,7 +53,7 @@ export const DENTISTS = [
 		"gender": "Male",
 		"imageUrl": "https://scontent-ort2-1.xx.fbcdn.net/v/t1.0-9/12645072_517410608431315_565980337064601314_n.jpg?oh=4e83a97660eda2494f68662c623a61b1&oe=5A34A72D",
 		"accreditation": "DDS",
-		"languages": ["English", "Spanish"]
+		"languages": ["English", "Spanish"],
 		"specialties": [
 			"General",
 			"Cosmetic",
@@ -95,8 +88,6 @@ export const DENTISTS = [
 			}
 		]
 	},
-		
-		
 
 	{
 		"id": "0003",
@@ -140,8 +131,6 @@ export const DENTISTS = [
 			}
 		]
 	},
-		
-		
 
 	{
 		"id": "0004",
@@ -206,6 +195,7 @@ export const DENTISTS = [
 		"General",
 		"Cosmetic",
 		"Family"
+	],
 	"practices": [{
 		"name": "Bliss Dental",
 		"city": "Miami",
@@ -222,7 +212,7 @@ export const DENTISTS = [
 			"Wednesday": "9AM-5PM",
 			"Thursday": "9AM-5PM",
 			"Friday": "9AM-5PM",
-			"Saturday": "9AM-3PM"
+			"Saturday": "9AM-3PM",
 			"Sunday": "Closed"
 		},
 		"bundles": [
@@ -366,7 +356,6 @@ export const DENTISTS = [
 ]
 },
 	
-	
 
 {
 	"id": "0009",
@@ -408,9 +397,9 @@ export const DENTISTS = [
 		]
 	}
 ]
-},
-	
-	
+	},
+
+
 
 {
 	"id": "0010",
@@ -690,14 +679,15 @@ export const DENTISTS = [
 		"gender": "Female",
 		"imageUrl": "https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/1/000/1dc/305/36803a3.jpg",
 		"accreditation": "DDS",
-		"languages": ["Spanish","English","French", "Farsi"]
+		"languages": ["Spanish","English","French", "Farsi"],
 		"specialties": [
 			"General",
 			"Cosmetic",
 			"Orthodontic",
 			"Prosthodontics"
 		],
-		"practices": [{
+		"practices": [
+			{
 			"name": "Ultra Smile Dentistry",
 			"city": "Miami",
 			"zipCode": "33131",
@@ -706,7 +696,7 @@ export const DENTISTS = [
 			"imageUrl": "",
 			"insurances": [
 				"None"
-	],
+			],
 			"schedule": {
 				"Monday": "9AM-6PM",
 				"Tuesday": "9AM-6PM",
@@ -726,8 +716,6 @@ export const DENTISTS = [
 	    ]
 	},
 		
-		
-
 	{
 	"id": "0016",
 	"name": "Yuchen Sheng",
@@ -903,8 +891,262 @@ export const DENTISTS = [
 	}
 ]
 },
-	
-	
+
+			{
+				"id": "0027",
+				"name": "Cesar Sabates",
+				"namePrefix": "Dr.",
+				"gender": "Male",
+				"imageUrl": "http://www.cesarsabates.com/images/cesarsabatesdds.jpg",
+				"accreditation": " DDS",
+				"languages": ["Spanish", "English"],
+				"specialties": [
+					"General",
+					"Cosmetic",
+					"Prosthodontics",
+					"Oral Surgery"
+					],
+				"practices": [{
+					"name": "Cesar R Sabates, DDS PA",
+					"city": "Miami",
+					"zipCode": "33134",
+					"phone": 3054487217,
+					"address": "747 Ponce De Leon Blvd",
+					"imagrUrl": "",
+					"insurances": [
+						"None"
+						],
+					"schedule": {
+						"Monday": "8:30AM-6PM",
+						"Tuesday": "8:30AM-6PM",
+						"Wednesday": "8:30AM-6PM",
+						"Thursday": "8:30AM-6PM",
+						"Friday": "8:30AM-6PM",
+						"Satuday": "Closed",
+						"Sunday": "Closed"
+					},
+					"bundles": [
+					{
+						"name": "New Patient Bundle (X-Rays, Cleaning, Exam)",
+						"price": 385
+				}
+			]
+		}
+]
+		},
+
+					{
+				"id": "0028",
+				"name": "Rafaella Armstrong",
+				"namePrefix": "Dr.",
+				"gender": "Female", 
+				"imageUrl": "http://c1-preview.prosites.com/84106/wy/images/bio%20photo_crop.jpg", 
+				"accreditation": "DDS",
+				"languages": ["Spanish", "English", "Italian"],
+				"specialties": [
+					"General",
+					"Cosmetic"
+					],
+				"practices": [{
+					"name": "Rafaella Armstrong DMD",
+					"city": "Miami",
+					"zipCode": "33131",
+					"phone": 3053716064,
+					"address": "150 SE 2nd Ave, Suite #604",
+					"imageUrl": "",
+					"insurances": [
+						"None"
+						],
+					"schedule": {
+						"Monday": "9AM-5PM",
+						"Tuesday": "9AM-5PM",
+						"Wednesday": "9AM-5PM",
+						"Thursday": "9AM-5PM",
+						"Friday": "9AM-5PM",
+						"Saturday": "Closed",
+						"Sunday": "Closed"
+					},
+					"bundles": [
+						{
+						"name": "New Patient Bundle (X-Rays, Cleaning, Exam)",
+						"price": 275,
+						}
+			]
+		}
+]
+		},
+			
+			
+			
+			{ 
+				"id": "0029",
+				"name": "Michelle Segel",
+				"namePrefix": "Dr.",
+				"gender": "Female",
+				"imageUrl": "https://d2t808ag5aqhkh.cloudfront.net/df5592a9-3c50-42ba-8823-77d9e1063dcbzoom.jpg",
+				"accreditation": "DMD",
+				"languages": ["Spanish", "English"],
+				"specialties": [
+					"General",
+					"Cosmetic"
+					],
+				"practices": [{
+					"name": "Confident Miami",
+					"city": "Miami",
+					"zipCode": "33134",
+					"phone": 3053631420,
+					"addres": "475 Biltmore Way, Suite 302",
+					"imageUrl": "",
+					"insurances": [
+						"None"
+						],
+					"schedule": {
+						"Monday": "9AM-5PM",
+						"Tuesday": "9AM-5PM",
+						"Wednesday": "9AM-4PM",
+						"Thursday": "9AM-5PM",
+						"Friday": "9AM-1PM",
+						"Saturday": "Closed",
+						"Sunday": "Closed"
+					},
+					"bundles": [
+						{
+						"name": "New Patient Bundle (X-Rays, Cleaning, Exam)",
+						"price": 705,
+						}
+			]
+		}
+]
+		},
+			
+			
+			
+			{ 
+				"id": "0030",
+				"name": "Manuel Seage",
+				"namePrefix": "Dr.",
+				"gender": "Male",
+				"imageUrl": "https://sa1s3.patientpop.com/assets/images/provider/photos/1442811.jpg",
+				"accreditation": "DDS",
+				"languages": ["Spanish", "English"],
+				"specialties": [
+					"General",
+					"Cosmetic"
+					],
+					"practices": [{
+					"name": "Confident Miami",
+					"city": "Miami",
+					"zipCode": "33134",
+					"phone": 3053631420,
+					"addres": "475 Biltmore Way, Suite 302",
+					"imageUrl": "",
+					"insurances": [
+						"None"
+						],
+					"schedule": {
+						"Monday": "9AM-5PM",
+						"Tuesday": "9AM-5PM",
+						"Wednesday": "9AM-4PM",
+						"Thursday": "9AM-5PM",
+						"Friday": "9AM-1PM",
+						"Saturday": "Closed",
+						"Sunday": "Closed"
+					},
+					"bundles": [
+						{
+						"name": "New Patient Bundle (X-Rays, Cleaning, Exam)",
+						"price": 705,
+						}
+			]
+		}
+]
+		},
+			
+			
+			
+			{ 
+				"id": "0031",
+				"name": "Dania Melnick Alonso",
+				"namePrefix": "Dr.",
+				"gender": "Female",
+				"imageUrl":  "https://sa1s3.patientpop.com/assets/images/provider/photos/1442813.jpg",
+				"accreditation": "DMD",
+				"languages": ["Spanish", "English"],
+				"specialties": [
+					"General",
+					"Cosmetic"
+					],
+					"practices": [{
+					"name": "Confident Miami",
+					"city": "Miami",
+					"zipCode": "33134",
+					"phone": 3053631420,
+					"addres": "475 Biltmore Way, Suite 302",
+					"imageUrl": "",
+					"insurances": [
+						"None"
+						],
+					"schedule": {
+						"Monday": "9AM-5PM",
+						"Tuesday": "9AM-5PM",
+						"Wednesday": "9AM-4PM",
+						"Thursday": "9AM-5PM",
+						"Friday": "9AM-1PM",
+						"Saturday": "Closed",
+						"Sunday": "Closed"
+					},
+					"bundles": [
+						{
+						"name": "New Patient Bundle (X-Rays, Cleaning, Exam)",
+						"price": 705,
+						}
+					]
+				}
+			]
+		},
+			
+			{ 
+				"id": "0032",
+				"name": "Carmen Garcia Paul",
+				"namePrefix": "Dr.", 
+				"gender": "Female",
+				"imageUrl": "http://www.miamibraces.com/wp-content/uploads/2016/02/AlexTphoto.com-Carmen-Garcia-Headshots-1-HighRes-1-845x1024.jpg",
+				"accreditation": "DMD",
+				"languages": ["Spanish", "English"],
+				"specialties": [
+					"General",
+					"Orthodontics",
+					"Pediatric"
+					],
+				"practices": [{
+					"name": "Miami Orthodontic Specialists",
+					"city": "Miami",
+					"zipCode": "33156",
+					"phone": 3054079000,
+					"address": "8525 SW 92nd St",
+					"imageUrl": "",
+					"insurances": [
+						"None"
+					],
+					"schedule": {
+						"Monday": "10:00AM-6:30PM",
+						"Tuesday": "8AM-5PM",
+						"Wednesday": "7:30AM-4PM",
+						"Thursday": "8AM-5PM",
+						"Friday": "8AM-5PM",
+						"Saturday": "Closed",
+						"Sunday": "Closed",
+					},
+					"bundles": [{
+						"name": "New Patient Consultation (X-Rays, Exam)",
+						"price": "Free", 
+				
+											}
+					      ]
+			}
+]
+},
+
 
 {
 	"id": "0020",
@@ -1097,7 +1339,7 @@ export const DENTISTS = [
 			      "General",
 			      "Cosmetic",
 			      "Family"
-			      ]
+			      ],
 		"practices": [{
 		  "name": "Sunset Family & Cosmetic Dentistry, Miami Beach",
 				"city": "Miami Beach",
@@ -1142,7 +1384,7 @@ export const DENTISTS = [
 				      	"Family",
 				      	"Orthodontics",
 				      	"Pediatric"
-				      ]
+				      ],
 			"practices": [{
 		 		"name": "Sunset Family & Cosmetic Dentistry, Miami Beach",
 				"city": "Miami Beach",
@@ -1189,11 +1431,11 @@ export const DENTISTS = [
 				"Family", 
 				"Endodontics",
 				"Sports"
-				]
+				],
 			"practices": [{
 				"name": "Sunset Dentistry",
 				"city": "Miami",
-				"zipcode": "33143",
+				"zipCode": "33143",
 				"phone": 3056617810,
 				"address": "6280 Sunset Drive, Suite #404",
 				"imageUrl": "",
@@ -1217,283 +1459,11 @@ export const DENTISTS = [
 			]
 		}
 ]
-		},
-			
-			
-			
-			{
-				"id": "0027",
-				"name": "Cesar Sabates"
-				"namePrefix": "Dr.",
-				"gender": "Male",
-				"imageUrl": "http://www.cesarsabates.com/images/cesarsabatesdds.jpg",
-				"accreditation": " DDS",
-				"languages": ["Spanish", "English"],
-				"specialties": [
-					"General",
-					"Cosmetic",
-					"Prosthodontics",
-					"Oral Surgery"
-					],
-				" practices": [{
-					"name": "Cesar R Sabates, DDS PA",
-					"city": "Miami",
-					"zipcode": "33134",
-					"phone": 3054487217,
-					"address": "747 Ponce De Leon Blvd",
-					"imagrUrl": "",
-					"insurances": [
-						"None"
-						],
-					"schedule": {
-						"Monday": "8:30AM-6PM",
-						"Tuesday": "8:30AM-6PM",
-						"Wednesday": "8:30AM-6PM",
-						"Thursday": "8:30AM-6PM",
-						"Friday": "8:30AM-6PM",
-						"Satuday": "Closed",
-						"Sunday": "Closed"
-					}
-					"bundles": [
-					{
-						"name": "New Patient Bundle (X-Rays, Cleaning, Exam)",
-						"price": 385
-				}
-			]
-		}
-]
-		},
-			
-			
-			
-			{
-				"id": "0028",
-				"name": "Rafaella Armstrong",
-				"namePrefix": "Dr.",
-				"gender": "Female", 
-				"imageUrl": "http://c1-preview.prosites.com/84106/wy/images/bio%20photo_crop.jpg", 
-				"accreditation": "DDS",
-				"languages": ["Spanish", "English", "Italian"],
-				"specialties": [
-					"General",
-					"Cosmetic"
-					],
-				"practices": [{
-					"name": "Rafaella Armstrong DMD",
-					"city": "Miami",
-					"zipcode": "33131",
-					"phone": 3053716064,
-					"address": "150 SE 2nd Ave, Suite #604",
-					"imageUrl": "",
-					"insurances": [
-						"None"
-						],
-					"schedule": {
-						"Monday": "9AM-5PM",
-						"Tuesday": "9AM-5PM",
-						"Wednesday": "9AM-5PM",
-						"Thursday": "9AM-5PM",
-						"Friday": "9AM-5PM",
-						"Saturday": "Closed",
-						"Sunday": "Closed"
-					},
-					"bundles": [
-						{
-						"name": "New Patient Bundle (X-Rays, Cleaning, Exam)",
-						"price": 275,
-						}
-			]
-		}
-]
-		},
-			
-			
-			
-			{ 
-				"id": "0029",
-				"name": "Michelle Segel",
-				"namePrefix": "Dr.",
-				"gender": "Female",
-				"imageUrl": "https://d2t808ag5aqhkh.cloudfront.net/df5592a9-3c50-42ba-8823-77d9e1063dcbzoom.jpg",
-				"accreditation": "DMD",
-				"languages": ["Spanish", "English"],
-				"specialties": [
-					"General",
-					"Cosmetic"
-					],
-				"practices": [{
-					"name": "Confident Miami",
-					"city": "Miami",
-					"zipcode": "33134",
-					"phone": 3053631420,
-					"addres": "475 Biltmore Way, Suite 302",
-					"imageUrl": "",
-					"insurances": [
-						"None"
-						],
-					"schedule": {
-						"Monday": "9AM-5PM",
-						"Tuesday": "9AM-5PM",
-						"Wednesday": "9AM-4PM",
-						"Thursday": "9AM-5PM",
-						"Friday": "9AM-1PM",
-						"Saturday": "Closed",
-						"Sunday": "Closed"
-					},
-					"bundles": [
-						{
-						"name": "New Patient Bundle (X-Rays, Cleaning, Exam)",
-						"price": 705,
-						}
-			]
-		}
-]
-		},
-			
-			
-			
-			{ 
-				"id": 0030"
-				"name": "Manuel Seage",
-				"namePrefix": "Dr.",
-				"gender": "Male",
-				"imageUrl": "https://sa1s3.patientpop.com/assets/images/provider/photos/1442811.jpg",
-				"accreditation": "DDS",
-				"languages": ["Spanish", "English"],
-				"specialties": [
-					"General",
-					"Cosmetic"
-					],
-					"practices": [{
-					"name": "Confident Miami",
-					"city": "Miami",
-					"zipcode": "33134",
-					"phone": 3053631420,
-					"addres": "475 Biltmore Way, Suite 302",
-					"imageUrl": "",
-					"insurances": [
-						"None"
-						],
-					"schedule": {
-						"Monday": "9AM-5PM",
-						"Tuesday": "9AM-5PM",
-						"Wednesday": "9AM-4PM",
-						"Thursday": "9AM-5PM",
-						"Friday": "9AM-1PM",
-						"Saturday": "Closed",
-						"Sunday": "Closed"
-					},
-					"bundles": [
-						{
-						"name": "New Patient Bundle (X-Rays, Cleaning, Exam)",
-						"price": 705,
-						}
-			]
-		}
-]
-		},
-			
-			
-			
-			{ 
-				"id": "0031",
-				"name": "Dania Melnick Alonso",
-				"namePrefix": "Dr.",
-				"gender": "Female",
-				"imageUrl":  "https://sa1s3.patientpop.com/assets/images/provider/photos/1442813.jpg"
-				"accreditation": "DMD",
-				"languages": ["Spanish", "English"],
-				"specialties": [
-					"General",
-					"Cosmetic"
-					],
-					"practices": [{
-					"name": "Confident Miami",
-					"city": "Miami",
-					"zipcode": "33134",
-					"phone": 3053631420,
-					"addres": "475 Biltmore Way, Suite 302",
-					"imageUrl": "",
-					"insurances": [
-						"None"
-						],
-					"schedule": {
-						"Monday": "9AM-5PM",
-						"Tuesday": "9AM-5PM",
-						"Wednesday": "9AM-4PM",
-						"Thursday": "9AM-5PM",
-						"Friday": "9AM-1PM",
-						"Saturday": "Closed",
-						"Sunday": "Closed"
-					},
-					"bundles": [
-						{
-						"name": "New Patient Bundle (X-Rays, Cleaning, Exam)",
-						"price": 705,
-						}
-			]
-		}
-	]
-]
-		},
-			
-			
-			
-			{ 
-				"id": "0032",
-				"name": "Carmen Garcia Paul",
-				"namePrefix": "Dr.", 
-				"gender": "Female",
-				"imageUrl": "http://www.miamibraces.com/wp-content/uploads/2016/02/AlexTphoto.com-Carmen-Garcia-Headshots-1-HighRes-1-845x1024.jpg",
-				"accreditation": "DMD"
-				"languages": ["Spanish", "English"],
-				"specialties": [
-					"General",
-					"Orthodontics",
-					"Pediatric"
-					],
-				"practices": [{
-					"name": "Miami Orthodontic Specialists",
-					"city": "Miami",
-					"zipcode": "33156",
-					"phone": 3054079000,
-					"address": "8525 SW 92nd St",
-					"imageUrl": "",
-					"insurance": [
-						"None"
-						]
-					"schedule": [
-						"Monday": "10:00AM-6:30PM",
-						"Tuesday": "8AM-5PM",
-						"Wednesday": "7:30AM-4PM",
-						"Thursday": "8AM-5PM",
-						"Friday": "8AM-5PM",
-						"Saturday": "Closed",
-						"Sunday": "Closed",
-					],
-					"bundles": [{
-						"name": "New Patient Consultation (X-Rays, Exam)",
-						"price": "Free", 
-				
-											}
-					      ]
-			}
-]
-},
-	{
-						
+}
+	
 
-					
-				
-				
-						
-
-						
-				
-					
-					
-					
-				
+];
+		
 	
 		
 		
