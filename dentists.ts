@@ -1,11 +1,11 @@
-export const DENTISTS = [
+expyouort const DENTISTS = [
 
 	{
 		"id": "0001",
 		"name": "Sofia Fontecilla",
 		"namePrefix": "Dr.",
 		"gender": "Female",
-		"imageUrl": "https://lh3.googleusercontent.com/-EsUX0r1mHZg/AAAAAAAAAAI/AAAAAAAAAG0/-oRmosa1bHU/s640/photo.jpg",
+		"imageUrl": "https://s3.us-east-2.amazonaws.com/pearl-img-repo/South+Florida/Partners/0001-0001-200x200.png",
 		"accreditation": "DDS.",
 		"languages": ["English", "Spanish"],
 		"specialties": [
@@ -51,7 +51,7 @@ export const DENTISTS = [
 		"name": "Brian Tschirhart",
 		"namePrefix": "Dr.",
 		"gender": "Male",
-		"imageUrl": "https://scontent-ort2-1.xx.fbcdn.net/v/t1.0-9/12645072_517410608431315_565980337064601314_n.jpg?oh=4e83a97660eda2494f68662c623a61b1&oe=5A34A72D",
+		"imageUrl": "https://s3.us-east-2.amazonaws.com/pearl-img-repo/South+Florida/Partners/0002-0001-200x200.png",
 		"accreditation": "DDS",
 		"languages": ["English", "Spanish"],
 		"specialties": [
@@ -94,7 +94,7 @@ export const DENTISTS = [
 		"name": "Oscar Reyes",
 		"namePrefix": "Dr.",
 		"gender": "Male",
-		"imageUrl": "https://www.southmiamismiles.com/wp-content/plugins/clientprofile/images/client_uploads/dr-reyes.jpg",
+		"imageUrl": "https://s3.us-east-2.amazonaws.com/pearl-img-repo/South+Florida/Partners/0003-0001-200x200.png",
 		"accreditation": "DDS",
 		"languages": ["Spanish", "English"],
 		"specialties": [
@@ -137,7 +137,7 @@ export const DENTISTS = [
 		"name": "Jessica Papir",
 		"namePrefix": "Dr.",
 		"gender": "Female",
-		"imageUrl": "https://d2t808ag5aqhkh.cloudfront.net/c2a18db2-a860-4499-8dc6-b20b8a3c5ee8circle_large__v1__.png",
+		"imageUrl": "https://s3.us-east-2.amazonaws.com/pearl-img-repo/South+Florida/Partners/0004-0001-200x200.png",
 		"accreditation": "DMD",
 		"languages": ["Spanish", "English"],
 		"specialties": [
@@ -188,7 +188,7 @@ export const DENTISTS = [
 	"name": "Andy Gaertner",
 	"namePrefix": "Dr.",
 	"gender": "Male",
-	"imageUrl": "https://d1cesmq0xhh7we.cloudfront.net/d7ed0f01-cbb6-451b-978c-5fe2e021a589zoom.jpg",
+	"imageUrl": "https://s3.us-east-2.amazonaws.com/pearl-img-repo/South+Florida/Partners/0005-0001-200x200.png",
 	"accreditation": "DMD",
 	"languages": ["Spanish", "English", "Hebrew", "French", "Dutch"],
 	"specialties": [
@@ -232,7 +232,7 @@ export const DENTISTS = [
 	"name": "Tommy Gaertner",
 	"namePrefix": "Dr.",
 	"gender": "Male",
-	"imageUrl": "https://d2t808ag5aqhkh.cloudfront.net/c6c90410-d38c-4957-9cf1-b9f54bcb6fd4zoom.jpg",
+	"imageUrl": "https://s3.us-east-2.amazonaws.com/pearl-img-repo/South+Florida/Partners/0006-0001-200x200.png",
 	"accreditation": "DMD",
 	"languages": ["Spanish", "English", "French", "Dutch", "Hebrew"],
 	"specialties": [
@@ -275,7 +275,7 @@ export const DENTISTS = [
 	"name": "Antonio Otero",
 	"namePrefix": "Dr.",
 	"gender": "Male",
-	"imageUrl": "http://mdxvitals-res.cloudinary.com/private_images/t_macro/professionals/1621556/Dr_Antonio_Otero_4.jpg",
+	"imageUrl": "https://s3.us-east-2.amazonaws.com/pearl-img-repo/South+Florida/Partners/0007-0001-200x200.png",
 	"accreditation": "DDS",
 	"languages": ["Spanish", "English"],
 	"specialties": [
@@ -319,7 +319,7 @@ export const DENTISTS = [
 	"name": "Rolando Marty",
 	"namePrefix": "Dr.",
 	"gender": "Male",
-	"imageUrl": "https://www.oterodentalcenters.com/img/doctors/marty.png",
+	"imageUrl": "https://s3.us-east-2.amazonaws.com/pearl-img-repo/South+Florida/Partners/0008-0001-200x200.png",
 	"accreditations": "DDS",
 	"languages": ["Spanish", "English"],
 	"specialties": [
@@ -362,7 +362,7 @@ export const DENTISTS = [
 	"name": "Adrian Gonzalez",
 	"namePrefix": "Dr.",
 	"gender": "Male",
-	"imageUrl": "https://www.oterodentalcenters.com/img/doctors/adrian.png",
+	"imageUrl": "https://s3.us-east-2.amazonaws.com/pearl-img-repo/South+Florida/Partners/0009-0001-200x200.png",
 	"accreditations": "DMD",
 	"languages": ["Spanish", "English"],
 	"specialties": [
@@ -406,7 +406,7 @@ export const DENTISTS = [
 	"name": "Maria F. Gonzalez",
 	"namePrefix": "Dr.",
 	"gender": "Female",
-	"imageUrl": "https://www.oterodentalcenters.com/img/doctors/maria.png",
+	"imageUrl": "https://s3.us-east-2.amazonaws.com/pearl-img-repo/South+Florida/Partners/0010-0001-200x200.png",
 	"accreditations": "DMD",
 	"languages": ["Spanish", "English"],
 	"specialties": [
@@ -450,7 +450,7 @@ export const DENTISTS = [
 	"name": "Jessica Eagan",
 	"namePrefix": "Dr.",
 	"gender": "Female",
-	"imageUrl": "http://drjeagan.com/wp-content/uploads/2016/10/Dr-Eagan.jpg",
+	"imageUrl": "https://s3.us-east-2.amazonaws.com/pearl-img-repo/South+Florida/Partners/0011-0001-200x200.png",
 	"accreditation": "DDS",
 	"languages": ["Spanish", "English"],
 	"specialties": [
@@ -494,7 +494,7 @@ export const DENTISTS = [
 	"name": "Steven Chavez",
 	"namePrefix": "Dr.",
 	"gender": "Male",
-	"imageUrl": "http://drjeagan.com/wp-content/uploads/2016/12/Dr-Chavez.jpg",
+	"imageUrl": "https://s3.us-east-2.amazonaws.com/pearl-img-repo/South+Florida/Partners/0012-0001-200x200.png",
 	"accreditation": "DDS",
 	"languages": ["Spanish", "English"],
 	"specialties": [
@@ -538,7 +538,7 @@ export const DENTISTS = [
 		"name": "Elibeth Alvarez",
 		"namePrefix": "Dr.",
 		"gender": "Female",
-		"imageUrl": "https://www.planfy.com/assets/images/global/dummy/people/avatar--default.png",
+		"imageUrl": "https://s3.us-east-2.amazonaws.com/pearl-img-repo/South+Florida/Partners/0013-0001-200x200.png",
 		"accreditation": "DDS",
 		"languages": ["Spanish", "English"],
 		"specialties": [
@@ -605,7 +605,7 @@ export const DENTISTS = [
 		"name": "Eduardo Ubieta",
 		"namePrefix": "Dr.",
 		"gender": "Male",
-		"imageUrl": "https://lh3.googleusercontent.com/-FRVQZl7D96o/AAAAAAAAAAI/AAAAAAAAABY/HhvRo0-5Wdw/s640/photo.jpg",
+		"imageUrl": "https://s3.us-east-2.amazonaws.com/pearl-img-repo/South+Florida/Partners/0014-0001-200x200.png",
 		"accreditation": "DDS",
 		"languages": ["Spanish", "English"],
 		"specialties": [
@@ -677,7 +677,7 @@ export const DENTISTS = [
 		"name": "Neda Bahmadi",
 		"namePrefix": "Dr.",
 		"gender": "Female",
-		"imageUrl": "https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/1/000/1dc/305/36803a3.jpg",
+		"imageUrl": "https://s3.us-east-2.amazonaws.com/pearl-img-repo/South+Florida/Partners/0015-0001-200x200.png",
 		"accreditation": "DDS",
 		"languages": ["Spanish","English","French", "Farsi"],
 		"specialties": [
@@ -721,7 +721,7 @@ export const DENTISTS = [
 	"name": "Yuchen Sheng",
 	"namePrefix": "Dr.",
 	"gender": "Female",
-	"imageUrl": "http://www.southbeachdental.com/images/sheng1.jpg",
+	"imageUrl": "https://s3.us-east-2.amazonaws.com/pearl-img-repo/South+Florida/Partners/0016-0001-200x200.png",
 	"accreditations": "DMD",
 	"languages": ["English"],
 	"specialties": [
@@ -766,7 +766,7 @@ export const DENTISTS = [
 	"name": "Hamid Nassery",
 	"namePrefix": "Dr.",
 	"gender": "Male",
-	"imageUrl": "http://www.hautemd.com/wp-content/uploads/2013/08/Dr-N-pro_New-179x210.jpg",
+	"imageUrl": "https://s3.us-east-2.amazonaws.com/pearl-img-repo/South+Florida/Partners/0017-0001-200x200.png",
 	"accreditation": "DDS",
 	"languages": ["Spanish", "English", "Farsi"],
 	"specialties": [
@@ -811,7 +811,7 @@ export const DENTISTS = [
 	"name": "Gloria Alvareztorre",
 	"namePrefix": "Dr",
 	"gender": "Female",
-	"imageUrl": "http://mdxvitals-res.cloudinary.com/private_images/t_macro/professionals/1626903/Dr_Gloria_Alvareztorre.jpg",
+	"imageUrl": "https://s3.us-east-2.amazonaws.com/pearl-img-repo/South+Florida/Partners/0018-0001-200x200.png",
 	"accreditation": "DDS",
 	"languages": ["Spanish", "English"],
 	"specialties": [
@@ -854,7 +854,7 @@ export const DENTISTS = [
 	"name": "Scott Kenward",
 	"namePrefix": "Dr.",
 	"gender": "Male",
-	"imageUrl": "https://www.healthgrades.com/img/prov/X/7/D/X7DN6_w120h160_v11339.jpg",
+	"imageUrl": "https://s3.us-east-2.amazonaws.com/pearl-img-repo/South+Florida/Partners/0019-0001-200x200.png",
 	"accreditation": "DDS",
 	"languages": ["English"],
 	"specialties": [
@@ -897,7 +897,7 @@ export const DENTISTS = [
 				"name": "Cesar Sabates",
 				"namePrefix": "Dr.",
 				"gender": "Male",
-				"imageUrl": "http://www.cesarsabates.com/images/cesarsabatesdds.jpg",
+				"imageUrl": "https://s3.us-east-2.amazonaws.com/pearl-img-repo/South+Florida/Partners/0027-0001-200x200.png",
 				"accreditation": " DDS",
 				"languages": ["Spanish", "English"],
 				"specialties": [
@@ -940,7 +940,7 @@ export const DENTISTS = [
 				"name": "Rafaella Armstrong",
 				"namePrefix": "Dr.",
 				"gender": "Female", 
-				"imageUrl": "http://c1-preview.prosites.com/84106/wy/images/bio%20photo_crop.jpg", 
+				"imageUrl": "https://s3.us-east-2.amazonaws.com/pearl-img-repo/South+Florida/Partners/0028-0001-200x200.png", 
 				"accreditation": "DDS",
 				"languages": ["Spanish", "English", "Italian"],
 				"specialties": [
@@ -983,7 +983,7 @@ export const DENTISTS = [
 				"name": "Michelle Segel",
 				"namePrefix": "Dr.",
 				"gender": "Female",
-				"imageUrl": "https://d2t808ag5aqhkh.cloudfront.net/df5592a9-3c50-42ba-8823-77d9e1063dcbzoom.jpg",
+				"imageUrl": "https://s3.us-east-2.amazonaws.com/pearl-img-repo/South+Florida/Partners/0029-0001-200x200.png",
 				"accreditation": "DMD",
 				"languages": ["Spanish", "English"],
 				"specialties": [
@@ -1026,7 +1026,7 @@ export const DENTISTS = [
 				"name": "Manuel Seage",
 				"namePrefix": "Dr.",
 				"gender": "Male",
-				"imageUrl": "https://sa1s3.patientpop.com/assets/images/provider/photos/1442811.jpg",
+				"imageUrl": "https://s3.us-east-2.amazonaws.com/pearl-img-repo/South+Florida/Partners/0030-0001-200x200.png",
 				"accreditation": "DDS",
 				"languages": ["Spanish", "English"],
 				"specialties": [
@@ -1069,7 +1069,7 @@ export const DENTISTS = [
 				"name": "Dania Melnick Alonso",
 				"namePrefix": "Dr.",
 				"gender": "Female",
-				"imageUrl":  "https://sa1s3.patientpop.com/assets/images/provider/photos/1442813.jpg",
+				"imageUrl":  "https://s3.us-east-2.amazonaws.com/pearl-img-repo/South+Florida/Partners/0031-0001-200x200.png",
 				"accreditation": "DMD",
 				"languages": ["Spanish", "English"],
 				"specialties": [
@@ -1110,7 +1110,7 @@ export const DENTISTS = [
 				"name": "Carmen Garcia Paul",
 				"namePrefix": "Dr.", 
 				"gender": "Female",
-				"imageUrl": "http://www.miamibraces.com/wp-content/uploads/2016/02/AlexTphoto.com-Carmen-Garcia-Headshots-1-HighRes-1-845x1024.jpg",
+				"imageUrl": "https://s3.us-east-2.amazonaws.com/pearl-img-repo/South+Florida/Partners/0032-0001-200x200.png",
 				"accreditation": "DMD",
 				"languages": ["Spanish", "English"],
 				"specialties": [
@@ -1153,7 +1153,7 @@ export const DENTISTS = [
 	"name": "Richard Mariani",
 	"namePrefix": "Dr.",
 	"gender": "male",
-	"imageUrl": "www.marianiorthodontics.com/portals/0/img/Mariani.png",
+	"imageUrl": "https://s3.us-east-2.amazonaws.com/pearl-img-repo/South+Florida/Partners/0020-0001-200x200.png",
 	"accreditation": "DDS",
 	"languages": ["Spanish", "English"],
 	"specialties": [
@@ -1198,7 +1198,7 @@ export const DENTISTS = [
 	"name": "Carmen Briceno Crespi",
 	"namePrefix": "Dr.",
 	"gender": "Female",
-	"imageUrl": "http://www.marianiorthodontics.com/portals/0/img/Briceno.png",
+	"imageUrl": "https://s3.us-east-2.amazonaws.com/pearl-img-repo/South+Florida/Partners/0021-0001-200x200.png",
 	"accreditation": "DDS",
 	"languages": ["Spanish", "English"],
 	"specialties": [
@@ -1242,7 +1242,7 @@ export const DENTISTS = [
 	"name": "Michael Robinson",
 	"namePrefix": "Dr.",
 	"gender": "Male",
-	"imageUrl": "https://www.healthgrades.com/img/prov/2/5/F/25FK2_w120h160_v16512.jpg",
+	"imageUrl": "https://s3.us-east-2.amazonaws.com/pearl-img-repo/South+Florida/Partners/0022-0001-200x200.png",
 	"accreditation": "DDS",
 	"languages": ["English"],
 	"specialties": [
@@ -1288,7 +1288,7 @@ export const DENTISTS = [
 	"name": "Jorge Blanco",
 	"namePrefix": "Dr.",
 	"gender": "Male",
-	"imageUrl": "http://www.imagesdental.com/images/dr-jorge-blanco.jpg",
+	"imageUrl": "https://s3.us-east-2.amazonaws.com/pearl-img-repo/South+Florida/Partners/0023-0001-200x200.png",
 	"accreditation": "DDS",
 	"languages": ["Spanish", "English"],
 	"specialties": [
@@ -1332,7 +1332,7 @@ export const DENTISTS = [
 		"name": "Jinelle Andujar",
 		"namePrefix": "Dr.",
 		"gender": "Female",
-		"imageUrl": "https://www.drubieta.com/images/dr_jinelle_abdujar-sm.jpg",
+		"imageUrl": "https://s3.us-east-2.amazonaws.com/pearl-img-repo/South+Florida/Partners/0024-0001-200x200.png",
 		"accreditation": "DMD",
 		"languages": ["Spanish", "English"],
 		"specialties": [
@@ -1376,7 +1376,7 @@ export const DENTISTS = [
 			"name": "Pavel Ivanov",
 			"namePrefix": "Dr.",
 			"gender": "Male",
-			"imageUrl": "https://www.drubieta.com/images/dr_pavel-sm.jpg",
+			"imageUrl": "https://s3.us-east-2.amazonaws.com/pearl-img-repo/South+Florida/Partners/0025-0001-200x200.png",
 			"accreditation": "DMD",
 			"languages": ["Spanish", "English"],
 		        "specialties": [
@@ -1421,7 +1421,7 @@ export const DENTISTS = [
 			"name": "Marco Leyte-Vidal",
 			"namePrefix": "Dr.",
 			"gender": "Male",
-			"imageUrl": "http://www.sunsetdentistry.com/wp-content/uploads/2016/09/docs.jpg",
+			"imageUrl": "https://s3.us-east-2.amazonaws.com/pearl-img-repo/South+Florida/Partners/0026-0001-200x200.png",
 			"accreditation": "DMD",
 			"languages":["Spanish", "English"],
 				
