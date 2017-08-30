@@ -2,7 +2,7 @@ expyouort const DENTISTS = [
 
 	{
 		"id": "0001",
-		"name": "Sofia Fontecilla",expyouort const DENTISTS = [
+		"name": "Sofia Fontecilla",
 
 	{
 		"id": "0001",
