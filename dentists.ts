@@ -3,10 +3,6 @@ expyouort const DENTISTS = [
 	{
 		"id": "0001",
 		"name": "Sofia Fontecilla",
-
-	{
-		"id": "0001",
-		"name": "Sofia Fontecilla",
 		"namePrefix": "Dr.",
 		"gender": "Female",
 		"imageUrl": "https://s3.us-east-2.amazonaws.com/pearl-img-repo/South+Florida/Partners/0001-0001-200x200.png",
