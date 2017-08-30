@@ -2954,7 +2954,54 @@ expyouort const DENTISTS = [
 			]
 		}
 ]
-}
+},
+	
+	{
+	"id": "0033",
+	"name": "Juan Ricardo Youssef",
+	"namePrefix": "Dr.",
+	"gender": "Male",
+	"imageUrl": "",
+	"accreditation": "DDS",
+	"languages": ["Spanish", "English"],
+	"specialties": [
+		"General",
+		"Cosmetic",
+		"Family",
+		"Prosthodontics",
+		"Pediatric",
+		"Orthodontics",
+		"Oral Surgery",
+		"Endodontics",
+		"Periodontics,"
+	],
+	"practices": [{
+		"name": "LoopDent",
+		"city": "Doral",
+		"zipCode": "33166",
+		"address": "7902 NW 36th Street, Suite #209",
+		"imageUrl": "",
+		"insurances": [
+		"None"
+],
+		"schedule": {
+			"Monday": "9AM-5PM",
+			"Tuesday": "9AM-5PM",
+			"Wednesday": "9AM-5PM",
+			"Thursday": "9AM-5PM",
+			"Friday": "9AM-5PM",
+			"Saturday": "Closed",
+			"Sunday": "Closed"
+		},
+		"bundles": [
+{
+			"name": "Annual Membership (X-Rays, 2 Cleanings, 2 Exams)",
+			"price": 570
+			}
+		]
+	}
+]
+},
 	
 
 ];
