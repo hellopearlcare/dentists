@@ -2961,7 +2961,7 @@ expyouort const DENTISTS = [
 	"name": "Juan Ricardo Youssef",
 	"namePrefix": "Dr.",
 	"gender": "Male",
-	"imageUrl": "",
+	"imageUrl": "https://s3.us-east-2.amazonaws.com/pearl-img-repo/South+Florida/Partners/0033-0001-200x200.png",
 	"accreditation": "DDS",
 	"languages": ["Spanish", "English"],
 	"specialties": [
@@ -3008,7 +3008,7 @@ expyouort const DENTISTS = [
 	"name": "Neil Friedman",
 	"namePrefix": "Dr.",
 	"gender": "Male",
-	"imageUrl": "",
+	"imageUrl": "https://s3.us-east-2.amazonaws.com/pearl-img-repo/South+Florida/Partners/0034-0001-200x200.png",
 	"accreditation": "DMD",
 	"languages": ["Spanish", "English", "Hebrew"],
 	"specialties": [
@@ -3052,7 +3052,7 @@ expyouort const DENTISTS = [
 	"name": "Luciana Molinari",
 	"namePrefix": "Dr.",
 	"gender": "Female",
-	"imageUrl": "",
+	"imageUrl": "https://s3.us-east-2.amazonaws.com/pearl-img-repo/South+Florida/Partners/0035-0001-200x200.png",
 	"accreditation": "DDS",
 	"languages": ["Spanish", "English"],
 	"specialties": [
