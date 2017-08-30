@@ -2203,7 +2203,7 @@ expyouort const DENTISTS = [
 			},
 			"bundles": [
 				{
-				"name": "New Patient Experience (Exam, Cleaning, and X-Rays",
+				"name": "New Patient Bundle (X-Rays, Cleaning, Exam)",
 				"price": 200
 				}
 			]
@@ -2997,7 +2997,10 @@ expyouort const DENTISTS = [
 {
 			"name": "New Patient Bundle (X-Rays, Cleaning, Exam)",
 			"price": 220
-			}
+			},
+			{
+			"name": "Annual Membership (X-Rays, 2 Cleanings, 2 Exams)",
+			"price": 570
 		]
 	}
 ]
