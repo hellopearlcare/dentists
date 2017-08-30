@@ -3009,7 +3009,7 @@ expyouort const DENTISTS = [
 	"namePrefix": "Dr.",
 	"gender": "Male",
 	"imageUrl": "",
-	"accreditation": "DDS",
+	"accreditation": "DMD",
 	"languages": ["Spanish", "English", "Hebrew"],
 	"specialties": [
 		"General",
@@ -3046,6 +3046,50 @@ expyouort const DENTISTS = [
 	}
 ]
 },
+	
+	{
+	"id": "0035",
+	"name": "Luciana Molinari",
+	"namePrefix": "Dr.",
+	"gender": "Female",
+	"imageUrl": "",
+	"accreditation": "DDS",
+	"languages": ["Spanish", "English"],
+	"specialties": [
+		"General",
+		"Cosmetic",
+		"Family",
+		"Pediatric",
+		"Orthodontics",
+		"Oral Surgery,"
+	],
+	"practices": [{
+		"name": "KB Smiles",
+		"city": "Key Biscayne",
+		"zipCode": "33149",
+		"address": "604 Crandon Blvd, Suite #205",
+		"imageUrl": "",
+		"insurances": [
+		"None"
+],
+		"schedule": {
+			"Monday": "8AM-6PM",
+			"Tuesday": "8AM-6PM",
+			"Wednesday": "8AM-6PM",
+			"Thursday": "8AM-6PM",
+			"Friday": "8AM-6PM",
+			"Saturday": "8AM-6PM",
+			"Sunday": "Closed"
+		},
+		"bundles": [
+{
+			"name": "New Patient Bundle (X-Rays, Cleaning, Exam)",
+			"price": 105
+			}
+		]
+	}
+]
+}
 
 ];
 		
