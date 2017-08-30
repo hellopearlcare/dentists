@@ -3003,6 +3003,49 @@ expyouort const DENTISTS = [
 ]
 },
 	
+	{
+	"id": "0034",
+	"name": "Neil Friedman",
+	"namePrefix": "Dr.",
+	"gender": "Male",
+	"imageUrl": "",
+	"accreditation": "DDS",
+	"languages": ["Spanish", "English", "Hebrew"],
+	"specialties": [
+		"General",
+		"Cosmetic",
+		"Family",
+		"Pediatric",
+		"Orthodontics",
+		"Periodontics,"
+	],
+	"practices": [{
+		"name": "Neil Friedman, DMD PA",
+		"city": "Key Biscayne",
+		"zipCode": "33149",
+		"address": "969 Crandon Blvd",
+		"imageUrl": "",
+		"insurances": [
+		"None"
+],
+		"schedule": {
+			"Monday": "8AM-4PM",
+			"Tuesday": "8AM-4PM",
+			"Wednesday": "8AM-4PM",
+			"Thursday": "8AM-4PM",
+			"Friday": "8AM-12PM",
+			"Saturday": "Closed",
+			"Sunday": "Closed"
+		},
+		"bundles": [
+{
+			"name": "New Patient Bundle (X-Rays, Cleaning, Exam)",
+			"price": 265
+			}
+		]
+	}
+]
+},
 
 ];
 		
