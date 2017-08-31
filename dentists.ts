@@ -1,4 +1,4 @@
-expyouort const DENTISTS = [
+export const DENTISTS = [
 
 	{
 		"id": "0001",
